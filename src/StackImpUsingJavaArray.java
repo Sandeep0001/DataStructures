@@ -1,10 +1,10 @@
-public class  StackImp {
+public class StackImpUsingJavaArray {
 
     int size;
     int arr[];
     int top;
 
-    StackImp(int size){
+    StackImpUsingJavaArray(int size){
         this.size = size;
         this.arr = new int[size];
         this.top = -1;
@@ -65,7 +65,7 @@ public class  StackImp {
 
 
     public static void main(String[] args){
-        StackImp stackImp = new StackImp(10);
+        StackImpUsingJavaArray stackImp = new StackImpUsingJavaArray(10);
         stackImp.pop(); //Stack is empty
 
         System.out.println("--------------------------");
